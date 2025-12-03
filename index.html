@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">CodingStella</div>
+
+        <ul class="menu">
+            <li>Home</li>
+            <li>Services</li>
+            <li>Products</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+
+        <!-- Search Icon -->
+        <div class="search-icon" onclick="toggleSearch()">
+            🔍
+        </div>
+    </nav>
+
+    <!-- Search Bar (Hidden at first) -->
+    <div class="search-bar" id="searchBar">
+        <div class="logo">CodingStella</div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search here...">
+        </div>
+
+        <div class="close-icon" onclick="toggleSearch()">
+            ✖
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
